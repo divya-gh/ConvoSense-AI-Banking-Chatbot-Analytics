@@ -1,0 +1,75 @@
+[
+  {
+    "conversation_id": "conv_001",
+    "timestamp": "2025-01-05T10:15:00",
+    "channel": "chat",
+    "user_utterance": "What is my checking account balance?",
+    "true_intent": "Check_Account_Balance",
+    "predicted_intent": "Check_Account_Balance",
+    "confidence_score": 0.92,
+    "entities": {
+      "account_type": "checking"
+    },
+    "fallback_triggered": false,
+    "escalated_to_agent": false,
+    "resolved": true
+  },
+  {
+    "conversation_id": "conv_002",
+    "timestamp": "2025-01-05T10:18:00",
+    "channel": "chat",
+    "user_utterance": "I see a charge I don't recognize from Amazon",
+    "true_intent": "Dispute_Transaction",
+    "predicted_intent": "Transaction_History",
+    "confidence_score": 0.61,
+    "entities": {
+      "merchant_name": "Amazon"
+    },
+    "fallback_triggered": false,
+    "escalated_to_agent": true,
+    "resolved": false
+  },
+  {
+    "conversation_id": "conv_003",
+    "timestamp": "2025-01-05T10:22:00",
+    "channel": "chat",
+    "user_utterance": "My debit card was stolen",
+    "true_intent": "Card_Lost_Or_Stolen",
+    "predicted_intent": "Card_Lost_Or_Stolen",
+    "confidence_score": 0.95,
+    "entities": {},
+    "fallback_triggered": false,
+    "escalated_to_agent": false,
+    "resolved": true
+  },
+  {
+    "conversation_id": "conv_004",
+    "timestamp": "2025-01-05T10:30:00",
+    "channel": "voice",
+    "user_utterance": "Can you tell me when my last five transactions were?",
+    "true_intent": "Transaction_History",
+    "predicted_intent": "Transaction_History",
+    "confidence_score": 0.88,
+    "entities": {
+      "transaction_count": 5
+    },
+    "fallback_triggered": false,
+    "escalated_to_agent": false,
+    "resolved": true
+  },
+  {
+    "conversation_id": "conv_005",
+    "timestamp": "2025-01-05T10:35:00",
+    "channel": "chat",
+    "user_utterance": "I need help updating my phone number",
+    "true_intent": "Update_Personal_Details",
+    "predicted_intent": "Default_Fallback",
+    "confidence_score": 0.42,
+    "entities": {
+      "field": "phone_number"
+    },
+    "fallback_triggered": true,
+    "escalated_to_agent": true,
+    "resolved": false
+  }
+]
