@@ -1,5 +1,5 @@
 ## Dialogflow CX
--  “Dialogflow CX is Google Cloud’s state-based conversational AI platform, designed to manage complex, multi-turn enterprise conversations through modular flows and pages.”
+“Dialogflow CX is Google Cloud’s state-based conversational AI platform, designed to manage complex, multi-turn enterprise conversations through modular flows and pages.”
 
 #### Dialogflow CX is Google Cloud’s enterprise platform for building conversational AI (chatbots and voicebots).
     - The system that decides how a conversation flows, not just what an intent is.
