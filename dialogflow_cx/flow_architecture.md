@@ -1,5 +1,8 @@
 # Dialogflow CX Flow Architecture
 
+![Flow_Diagram](./Images/Dialogflow_chart.png)
+
+
 This document outlines the conversational flow design derived from linguistic and NLP error analysis.
 
 ## Root Flow

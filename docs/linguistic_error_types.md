@@ -1,10 +1,10 @@
 🧠 Linguistic Error Types:
 In conversational AI, failures usually fall into three linguistic layers:
 
-Layer:	Question it answers
-Syntax:How is the sentence structured?
-Semantics:	What does the sentence mean?
-Pragmatics:	What does the user actually want in context?
+Error Types:	                                      Question it answers
+Syntax Error :                                 How is the sentence structured?
+Semantics Error :	                           What does the sentence mean?
+Pragmatics Error :	                           What does the user actually want in context?
 
 ### 1️⃣ Syntax Errors (Structure Problems)
 What This Looks Like:
@@ -25,7 +25,7 @@ EX: “I was charged twice and want to know if I can reverse the payment”
 Syntactic Error Analysis:
 Syntactic failures were observed in utterances containing multiple clauses, conjunctions, and verbs. These structures often represent compound user actions, which exceed the model’s single-intent classification design, leading to incorrect intent prediction.
 
-### 2️⃣ Semantic Errors (Meaning Ambiguity)
+### 2️⃣ Semantic Errors (Meaning Ambiguity-Multiple meaning)
 #### What This Looks Like:
 Semantic errors happen when words mean multiple things in banking contexts.
 
@@ -43,8 +43,7 @@ Semantic errors happen when words mean multiple things in banking contexts.
 Semantic Error Analysis:
 Semantic ambiguity in domain-specific terms such as "charge", "payment", and "transfer" contributed significantly to misclassification. The absence of fine-grained entity resolution limits the model’s ability to distinguish between closely related banking intents.
 
-### 3️⃣ Pragmatic Failures (Context & Expectation Mismatch)
-#### What This Means
+### 3️⃣ PragmaticErrors > Failures (Context & Expectation Mismatch)
 
 #### Pragmatic failures occur when:
 - The model predicts the correct intent
@@ -57,6 +56,8 @@ Semantic ambiguity in domain-specific terms such as "charge", "payment", and "tr
 ### Aalysis: 
 ✔ Intent classified correctly
 ❌ User goal unmet
+
+### Our project Analyis: 
 -Escalation despite correct intent
 -High confidence predictions with poor resolution
 -Manual review of escalated cases
