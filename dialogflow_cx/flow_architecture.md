@@ -1,6 +1,6 @@
 # Dialogflow CX Flow Architecture
 
-<img src="./Images/Dialogflow_chart.png" alt="Flow_Diagram" width="300">
+<img src="./Images/Dialogflow_chart.png" alt="Flow_Diagram" width="600">
 
 
 
